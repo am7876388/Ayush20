@@ -1,0 +1,246 @@
+html{
+    height: 100%;
+    font-size: 62.5%;
+}
+body{
+    overflow-x: hidden;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 6.47rem;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(151,197,131);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    border-bottom: solid 1px gray;
+    box-shadow: 0 0.4rem 0.2rem -0.2rem rgba(0, 0, 0, 0.5);
+}
+ul{
+    list-style-type: none;
+}
+i{
+font-size: 2.5rem;
+}
+ul li{
+    display: inline-block;
+    padding: 1.4rem 1.6rem;
+    font-size: 2rem;
+}
+#Submit{
+    width: 6rem;
+    height: 3.3rem;
+}
+#Inside{
+        margin-left: 20rem;
+}
+#Inside li{
+    display: block;
+    padding: 0;
+}
+input{
+    width: 30rem;
+    height: 3rem;
+}
+#Input{
+    margin-right: 15rem;
+    margin-top: 1.5rem;
+    float: right;
+}
+#Label{
+    margin-bottom: 1rem;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.6rem;
+  }
+  
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+  
+  h3 {
+    font-size: 1.872rem;
+  }
+  
+h2{
+    margin-left: 1rem;
+    height: fit-content;
+}
+.data{
+    height: 22rem;
+    width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.data img{
+    width: 40%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+.data h2{
+    width: 50%;
+}
+.numbers {
+    margin-top: 12.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#Followers,#Following,#Repos{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    width: calc(100%/3);
+    height: 50%;
+    text-align: center;
+}
+.numbers_data{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    width: calc(100%/3);
+    height: 50%;
+}
+.tags:hover{
+    cursor: pointer;
+}
+.Repository{
+    position: absolute;
+    top: 40rem;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+}
+.name{
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.description+.language{
+    margin-top: 2rem;
+}
+hr{
+    margin-top: 1rem;
+    width: 100%;
+}
+.Follower-data{
+    margin-top: 3rem;
+}
+.Followers-name h2{
+    position: absolute;
+    top: 8rem;
+    left: -1rem;
+}
+.Follower-data label{
+    position: relative;
+    bottom: 8.5rem;
+    font-size: 2rem;
+    left: 1rem;
+}
+.Follower-data hr{
+    width: 35%;
+}
+.Followers-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 85rem;
+    top: 3rem;
+}
+.Follow{
+    width: 10rem;
+    height: 10rem;
+}
+#founds{
+    width: 100%;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#founds h2{
+    background-color: rgb(252,248,187);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: 400;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 3rem;
+    margin-left: 10rem;
+    margin-right: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user_data{
+height: 12.5%;
+padding-top: 2rem;
+width: calc(100%/3);
+}
+.user_data img{
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+}
+.user_data label{
+    position: relative;
+    font-size: 2rem;
+    bottom: 7rem;
+    left: 1rem;
+}
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+footer button{
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+i{
+    font-size: 3rem;
+    font-weight: 300;
+}
+#Next{
+    position: absolute;
+    left: 113rem;
+}
+#Previous{
+    position: absolute;
+    left: 9rem;
+}
+i:hover{
+    color: rgb(151,197,131);
+    cursor: pointer;
+}
+@media(max-width:1070px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:770px){
+    html{
+        font-size: 30%;
+    }
+}
